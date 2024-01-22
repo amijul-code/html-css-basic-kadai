@@ -1,17 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
 
 #top {
  width: 800px;
+ height: 60px;
  background: #dcc9f4;
- padding-top: 20px;
  margin-bottom: 20px;
- padding-bottom:20px;
  text-align: center;
+ position: relative;
 }
 
 .top-child {
   width: 20%;
+  height: 20px;
   background: #ffd9df;
-  display: inline;
+}
+
+.position-left {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+}
+
+.position-center {
+  position: absolute;
+  top: 20px;
+  left: 320px;
+}
+.position-right {
+  position: absolute;
+  top: 20px;
+  right: 150px;
 }
 
 #middle {
@@ -21,6 +47,7 @@
   padding-bottom: 20px;
   background: #ffd9df;
   margin-bottom: 20px;
+  position: relative;
 }
 
 #middle-child01 {
